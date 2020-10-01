@@ -1,0 +1,40 @@
+<idea-plugin>
+    <id>me.schoditsch.UltimateStackoverflow</id>
+    <name>Ultimate Stackoverflow</name>
+    <vendor email="m.schoditsch@gmail.com" url="https://schoditsch-moritz.github.io/">Moritz Schoditsch</vendor>
+
+    <description><![CDATA[
+        Best plugin ever for Stack Overflow in IntelliJ IDEA.<br>
+        You'll love this plugin!<br>
+        With this plugin you can easily ask question or search for question!
+        If you like this plugin, make us happy by donating! <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PXNSDWADNANUU">Donate</a>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <group id="me.schoditsch.stackoverflow.action.Group"
+               text="Stack Overflow"
+                popup="true"
+                icon="StackIcons.icon">
+
+            <add-to-group group-id="ToolsMenu" anchor="after" relative-to-action="me.schoditsch.stackoverflow.action.AskQuestion"/>
+            <action class="me.schoditsch.stackoverflow.actions.AskQuestionAction"
+                    id="me.schoditsch.stackoverflow.action.AskQuestion"
+                    text="Ask Question"
+                    description="Directs you to the ask question page of Stackoverflow">
+            </action>
+        </group>
+        <action id="me.schoditsch.stackoverflow.Search"
+                class="me.schoditsch.stackoverflow.actions.SearchAction"
+                text="Search on Stack Overflow"
+                description="Search on Stack Overflow"
+                icon="StackIcons.icon">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <add-to-group group-id="ConsoleEditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
