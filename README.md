@@ -8,7 +8,14 @@ With this plugin you can:
 
 ### Screenshots
 
-Comming soon ...
+#### Tools Menu
+![ToolsMenu](/screenshots/screen_3.PNG)
+
+#### EditorPopup Menu
+![EditorPopupMenu](/screenshots/screen_2.PNG)
+
+#### ConsoleEditorPopup Menu
+![ConsoleEditorPopupMenu](/screenshots/screen_1.PNG)
 
 ### How to install
 
