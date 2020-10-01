@@ -4,10 +4,10 @@
     <vendor email="m.schoditsch@gmail.com" url="https://schoditsch-moritz.github.io/">Moritz Schoditsch</vendor>
 
     <description><![CDATA[
-        Best plugin ever for Stack Overflow in IntelliJ IDEA.<br>
-        You'll love this plugin!<br>
-        With this plugin you can easily ask question or search for question!
-        If you like this plugin, make us happy by donating! <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PXNSDWADNANUU">Donate</a>
+        Plugin for Stack Overflow in IntelliJ IDEA.<br>
+        You will love this plugin!<br>
+        With this plugin you can easily ask question or search for question!<br><br>
+        To help and make the developer happy, consider a donation:  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PXNSDWADNANUU">Donate</a>
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>

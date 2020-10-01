@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.4.26'
+}
+
+group 'me.schoditsch'
+version '1.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+intellij {
+    version '2020.2.2'
+}
+
+patchPluginXml {
+    changeNotes """
+      Version <b>1.0.1</b><br>
+      <em>+ enabled action after selection</em> 
+      """
+}
